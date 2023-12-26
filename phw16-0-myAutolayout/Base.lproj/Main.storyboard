@@ -1,24 +1,161 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="phw16_0_myAutolayout" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="p7e-tk-DvV" userLabel="background">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="winter4" translatesAutoresizingMaskIntoConstraints="NO" id="cLj-Uj-FiC">
+                                <rect key="frame" x="121.66666666666669" y="351" width="150" height="150"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="北極熊4" translatesAutoresizingMaskIntoConstraints="NO" id="mIJ-oy-o0N" userLabel="winter1">
+                                <rect key="frame" x="211.66666666666666" y="281" width="59.999999999999972" height="60"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="雪兔1" translatesAutoresizingMaskIntoConstraints="NO" id="Pup-c1-CNT" userLabel="winter2">
+                                <rect key="frame" x="51.666666666666657" y="351" width="60" height="60"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="雪狐1" translatesAutoresizingMaskIntoConstraints="NO" id="yQo-jo-Iqg" userLabel="winter3">
+                                <rect key="frame" x="121.66666666666669" y="511" width="60" height="60"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="雪鴞3" translatesAutoresizingMaskIntoConstraints="NO" id="VBi-uD-jIa" userLabel="winter4">
+                                <rect key="frame" x="281.66666666666669" y="441" width="60" height="60"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="北極熊2" translatesAutoresizingMaskIntoConstraints="NO" id="jXh-tu-sWU" userLabel="winter11">
+                                <rect key="frame" x="123.66666666666669" y="242" width="78" height="78"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="雪兔2" translatesAutoresizingMaskIntoConstraints="NO" id="kjY-rr-oDR" userLabel="winter21">
+                                <rect key="frame" x="12.666666666666664" y="421" width="78" height="78"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="雪狐4" translatesAutoresizingMaskIntoConstraints="NO" id="H08-w9-fGZ" userLabel="winter31">
+                                <rect key="frame" x="191.66666666666666" y="532" width="77.999999999999972" height="78"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="雪鴞4" translatesAutoresizingMaskIntoConstraints="NO" id="ZbB-m2-w8G" userLabel="winter41">
+                                <rect key="frame" x="302.66666666666669" y="353" width="78" height="78"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="kjY-rr-oDR" firstAttribute="height" secondItem="Pup-c1-CNT" secondAttribute="height" multiplier="1.3" id="0ME-H5-mqF"/>
+                            <constraint firstItem="Pup-c1-CNT" firstAttribute="top" secondItem="cLj-Uj-FiC" secondAttribute="top" id="0W8-ev-FeB"/>
+                            <constraint firstItem="cLj-Uj-FiC" firstAttribute="leading" secondItem="Pup-c1-CNT" secondAttribute="trailing" constant="10" id="0ll-0C-DZX"/>
+                            <constraint firstItem="yQo-jo-Iqg" firstAttribute="leading" secondItem="cLj-Uj-FiC" secondAttribute="leading" id="1EP-K4-2et"/>
+                            <constraint firstItem="cLj-Uj-FiC" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.381679" id="7WQ-f1-G0j"/>
+                            <constraint firstItem="cLj-Uj-FiC" firstAttribute="top" secondItem="mIJ-oy-o0N" secondAttribute="bottom" constant="10" id="8uQ-n9-5Mq"/>
+                            <constraint firstItem="yQo-jo-Iqg" firstAttribute="top" secondItem="cLj-Uj-FiC" secondAttribute="bottom" constant="10" id="9qu-lE-z8O"/>
+                            <constraint firstItem="H08-w9-fGZ" firstAttribute="centerY" secondItem="yQo-jo-Iqg" secondAttribute="bottom" id="EU6-fv-XtR"/>
+                            <constraint firstItem="jXh-tu-sWU" firstAttribute="width" secondItem="mIJ-oy-o0N" secondAttribute="width" multiplier="1.3" id="Fj5-vC-bDZ"/>
+                            <constraint firstItem="kjY-rr-oDR" firstAttribute="top" secondItem="Pup-c1-CNT" secondAttribute="bottom" constant="10" id="HYZ-lw-dtD"/>
+                            <constraint firstItem="H08-w9-fGZ" firstAttribute="width" secondItem="yQo-jo-Iqg" secondAttribute="width" multiplier="1.3" id="HZY-MY-2aY"/>
+                            <constraint firstItem="cLj-Uj-FiC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KAE-t9-Dfz"/>
+                            <constraint firstItem="VBi-uD-jIa" firstAttribute="width" secondItem="cLj-Uj-FiC" secondAttribute="width" multiplier="0.4" id="KJh-lP-Uth"/>
+                            <constraint firstItem="jXh-tu-sWU" firstAttribute="centerY" secondItem="mIJ-oy-o0N" secondAttribute="top" id="QEa-nE-fII"/>
+                            <constraint firstItem="H08-w9-fGZ" firstAttribute="leading" secondItem="yQo-jo-Iqg" secondAttribute="trailing" constant="10" id="QWO-ND-HWi"/>
+                            <constraint firstItem="mIJ-oy-o0N" firstAttribute="trailing" secondItem="cLj-Uj-FiC" secondAttribute="trailing" id="Qgd-BJ-EML"/>
+                            <constraint firstItem="ZbB-m2-w8G" firstAttribute="width" secondItem="VBi-uD-jIa" secondAttribute="width" multiplier="1.3" id="RJV-VC-qsX"/>
+                            <constraint firstItem="cLj-Uj-FiC" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="TS4-cJ-gOw"/>
+                            <constraint firstItem="VBi-uD-jIa" firstAttribute="height" secondItem="cLj-Uj-FiC" secondAttribute="height" multiplier="0.4" id="UPH-MT-vvL"/>
+                            <constraint firstItem="H08-w9-fGZ" firstAttribute="height" secondItem="yQo-jo-Iqg" secondAttribute="height" multiplier="1.3" id="UZG-X9-wnk"/>
+                            <constraint firstItem="mIJ-oy-o0N" firstAttribute="height" secondItem="cLj-Uj-FiC" secondAttribute="height" multiplier="0.4" id="VtG-O8-xpT"/>
+                            <constraint firstItem="yQo-jo-Iqg" firstAttribute="height" secondItem="cLj-Uj-FiC" secondAttribute="height" multiplier="0.4" id="Wk4-Vv-A3n"/>
+                            <constraint firstItem="cLj-Uj-FiC" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.176056" id="XI4-Dc-ghK"/>
+                            <constraint firstItem="kjY-rr-oDR" firstAttribute="width" secondItem="Pup-c1-CNT" secondAttribute="width" multiplier="1.3" id="ZH8-0S-ffE"/>
+                            <constraint firstItem="VBi-uD-jIa" firstAttribute="bottom" secondItem="cLj-Uj-FiC" secondAttribute="bottom" id="c4o-70-47r"/>
+                            <constraint firstItem="jXh-tu-sWU" firstAttribute="height" secondItem="mIJ-oy-o0N" secondAttribute="height" multiplier="1.3" id="dHF-dy-Qbp"/>
+                            <constraint firstItem="p7e-tk-DvV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="gKH-n2-Kce"/>
+                            <constraint firstItem="VBi-uD-jIa" firstAttribute="leading" secondItem="cLj-Uj-FiC" secondAttribute="trailing" constant="10" id="iE8-QS-7Cj"/>
+                            <constraint firstItem="p7e-tk-DvV" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="idB-e9-EzH"/>
+                            <constraint firstItem="mIJ-oy-o0N" firstAttribute="width" secondItem="cLj-Uj-FiC" secondAttribute="width" multiplier="0.4" id="jFC-UL-aO1"/>
+                            <constraint firstItem="VBi-uD-jIa" firstAttribute="top" secondItem="ZbB-m2-w8G" secondAttribute="bottom" constant="10" id="jI2-tm-xXO"/>
+                            <constraint firstItem="yQo-jo-Iqg" firstAttribute="width" secondItem="cLj-Uj-FiC" secondAttribute="width" multiplier="0.4" id="kcz-xj-t5o"/>
+                            <constraint firstItem="Pup-c1-CNT" firstAttribute="width" secondItem="cLj-Uj-FiC" secondAttribute="width" multiplier="0.4" id="pj6-PK-9ot"/>
+                            <constraint firstItem="kjY-rr-oDR" firstAttribute="centerX" secondItem="Pup-c1-CNT" secondAttribute="leading" id="pno-ga-Tgm"/>
+                            <constraint firstItem="Pup-c1-CNT" firstAttribute="height" secondItem="cLj-Uj-FiC" secondAttribute="height" multiplier="0.4" id="qaG-bd-L4o"/>
+                            <constraint firstAttribute="bottom" secondItem="p7e-tk-DvV" secondAttribute="bottom" id="qvW-6f-dkj"/>
+                            <constraint firstAttribute="trailing" secondItem="p7e-tk-DvV" secondAttribute="trailing" id="tP1-7V-ZYH"/>
+                            <constraint firstItem="ZbB-m2-w8G" firstAttribute="centerX" secondItem="VBi-uD-jIa" secondAttribute="trailing" id="uJs-68-uEo"/>
+                            <constraint firstItem="mIJ-oy-o0N" firstAttribute="leading" secondItem="jXh-tu-sWU" secondAttribute="trailing" constant="10" id="w3T-Hh-J6l"/>
+                            <constraint firstItem="ZbB-m2-w8G" firstAttribute="height" secondItem="VBi-uD-jIa" secondAttribute="height" multiplier="1.3" id="xiL-k5-u1g"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-761" y="-100"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="background" width="1024" height="1024"/>
+        <image name="winter4" width="1024" height="1024"/>
+        <image name="北極熊2" width="1024" height="1024"/>
+        <image name="北極熊4" width="1024" height="1024"/>
+        <image name="雪兔1" width="1024" height="1024"/>
+        <image name="雪兔2" width="1024" height="1024"/>
+        <image name="雪狐1" width="1024" height="1024"/>
+        <image name="雪狐4" width="1024" height="1024"/>
+        <image name="雪鴞3" width="1024" height="1024"/>
+        <image name="雪鴞4" width="1024" height="1024"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
